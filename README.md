@@ -1,8 +1,10 @@
-# Useful commands
+# AWS EKS Landing Zone
 
- * `npm run build`   compile typescript to js
- * `npm run watch`   watch for changes and compile
- * `npm run test`    perform the jest unit tests
- * `cdk deploy`      deploy this stack to your default AWS account/region
- * `cdk diff`        compare deployed stack with current state
- * `cdk synth`       emits the synthesized CloudFormation template
+This repository contains reference CDK code to deploy an EKS cluster within a VPC with VPC Endpoints, Cluster Autoscaler, and other basic features preconfigured.
+
+## Usage
+
+To deploy the stack simply run:
+```bash
+cdk deploy --profile <aws profile>
+```
